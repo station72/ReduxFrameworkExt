@@ -1,0 +1,15 @@
+ Redux::setSection( $opt_name, array(
+        'title'            => __( 'Title', 'redux-framework-demo' ),
+        'id'               => 'theme_slug-section_id',
+        'subsection'       => true,
+        'customizer_width' => '450px',
+        'desc'             => __( 'Parent description', 'redux-framework-demo' ),
+        'fields'           => array(
+            array(
+                'id'       => 'theme_slug-filed_id',
+                'type'     => 'select_page',
+                'title'    => __( 'serj_field option', 'redux-framework-demo' ),
+                'subtitle' => __( 'serj_field subtitle', 'redux-framework-demo' ),
+                'desc'     => __( 'serj_field desc', 'redux-framework-demo' ),
+                'default'  => '1'// 1 = on | 0 = off
+            ),
